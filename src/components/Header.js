@@ -8,13 +8,14 @@ const Header = (props) => {
         <a href="#/">Plates Shopping Cart</a>
       </div>
       <div>
-        <a href="#/cart">Cart</a>
-        Cart{' '}
-        {countCartItems ? (
-          <button className="badge">{countCartItems}</button>
-        ) : (
-          ''
-        )}
+        <a href="#/cart">
+          Cart{' '}
+          {countCartItems ? (
+            <button className="badge">{countCartItems}</button>
+          ) : (
+            ''
+          )}
+        </a>
       </div>
     </header>
   );
